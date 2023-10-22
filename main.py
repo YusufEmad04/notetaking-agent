@@ -24,8 +24,6 @@ _retriever = Pinecone.from_existing_index(index_name="agentmatscience", embeddin
 
 retriever = docs_to_text_retriever(retriever=_retriever.get_relevant_documents)
 
-app = Flask(__name__)
-CORS(app)
 
 def ask(query):
 
