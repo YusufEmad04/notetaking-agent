@@ -1,11 +1,9 @@
 from langchain.vectorstores import Pinecone
 from langchain.embeddings import OpenAIEmbeddings
 import pinecone
-from flask import Flask, request, jsonify, Response
 from langchain.chat_models import ChatOpenAI
 from langchain.schema import SystemMessage
 from langchain.prompts import HumanMessagePromptTemplate, ChatPromptTemplate
-from flask_cors import CORS
 import json
 import os
 
