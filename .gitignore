@@ -1,0 +1,11 @@
+venv/
+test.py
+.idea/
+__pycache__/
+data.txt
+ddd.py
+.env
+ahmed.txt
+cs50oy.py
+ME274-Materials Final (1).pdf
+Test.py
