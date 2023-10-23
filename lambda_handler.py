@@ -19,10 +19,4 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": {"response": response},
-        # add all CORS headers
-        "headers": {
-            "Access-Control-Allow-Origin": "*",
-            "Access-Control-Allow-Headers": "*",
-            "Access-Control-Allow-Methods": "*",
-        },
     }
